@@ -136,29 +136,6 @@ const levels = [
         ]
     },
     {
-        level: "level 4",
-        category: "movies",
-        listWords: [
-            "Back to the future",
-            "Home alone",
-            "Rocky",
-            "Rambo",
-            "Taken",
-            "Star trek",
-            "James Bond",
-            "Star wars",
-            "Indiana Jones",
-            "Terminator",
-            "The godfather",
-            "Ali",
-            "Die hard",
-            "The expandables",
-            "Titanic",
-            "The hunger games",
-            "Maze runner",
-        ]
-    },
-    {
         level: "level 5",
         category: "countries",
         listWords: [
