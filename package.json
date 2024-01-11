@@ -25,25 +25,5 @@
   "devDependencies": {
     "env-cmd": "^10.1.0",
     "nodemon": "^3.0.1"
-  },
-  "nodemonConfig": {
-    "signal": "SIGTERM",
-    "ignore": [
-      "node_modules/*",
-      ".vscode/*"
-    ],
-    "delay": "80",
-    "watch": [
-      "config",
-      "src"
-    ],
-    "ext": "js,json",
-    "legacyWatch": true,
-    "exec": "node --inspect=0.0.0.0:9001 --trace-warnings src/index.js"
-  },
-  "engines": {
-    "npm": ">=9.8.0",
-    "node": ">=20.6.0",
-    "yarn": ">=1.22.0"
   }
 }
